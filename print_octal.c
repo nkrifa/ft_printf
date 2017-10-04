@@ -1,14 +1,16 @@
-/*
-** print_octal.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 17:26:45 2013 chapui_s
-** Last update Sun Nov 17 13:47:41 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_octal.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:29:15 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:29:24 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 
 void	finish_octal(t_tmp_arg *tmp, t_params *params,
 		     unsigned int s_to_add, unsigned int s_to_print)

@@ -1,14 +1,16 @@
-/*
-** print_uint.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 14:04:04 2013 chapui_s
-** Last update Sun Nov 17 12:26:38 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_uint.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:29:52 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:30:01 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 #include <stdint.h>
 #include <stddef.h>
 

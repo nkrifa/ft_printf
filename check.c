@@ -1,12 +1,14 @@
-/*
-** check.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sun Nov 17 00:26:04 2013 chapui_s
-** Last update Sun Nov 17 18:02:58 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:25:21 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:25:31 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 int		is_parameter_number(const char *str)
 {

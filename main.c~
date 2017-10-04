@@ -6,7 +6,7 @@
 /*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 23:08:27 by nkrifa            #+#    #+#             */
-/*   Updated: 2017/10/04 23:48:17 by nkrifa           ###   ########.fr       */
+/*   Updated: 2017/10/04 23:47:43 by nkrifa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int main (int ac, char **av)
 	int i = 0;
 	while (i < 10)
 	{
-	ft_printf("%35.10d je suis donc je pense %% \n",i);
+	ft_printf("%1235.10d je suis donc je pense %% \n",i);
 	i++;
 	}
 

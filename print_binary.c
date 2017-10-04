@@ -1,14 +1,16 @@
-/*
- ** print_binary.c for my_printf in /home/chapui_s/travaux/my_printf/new
- **
- ** Made by chapui_s
- ** Login   <chapui_s@epitech.net>
- **
- ** Started on  Sat Nov 16 22:47:10 2013 chapui_s
- ** Last update Sun Nov 17 12:09:59 2013 chapui_s
- */
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_binary.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:27:50 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:28:01 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 
 unsigned int	print_binary(t_tmp_arg *tmp, t_params *params,
 		unsigned int s_to_add,

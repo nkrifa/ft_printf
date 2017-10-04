@@ -1,15 +1,17 @@
-/*
-** my_printf.h for my_printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Wed Nov 13 18:30:52 2013 chapui_s
-** Last update Sun Nov 17 17:33:34 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:36:08 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:51:14 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef MY_PRINTF_H_
-# define MY_PRINTF_H_
+#ifndef FT_PRINTF_H_
+# define FT_PRINTF_H_
 
 #include <stdarg.h>
 
@@ -60,7 +62,7 @@ unsigned int		calc_binary(unsigned long long nb);
 unsigned int		calc_binary(unsigned long long nb);
 int			is_parameter_number(const char *str);
 void			my_putstr(char *str);
-void			my_putchar(char c);
+void			ft_putchar(char c);
 void			add_space(unsigned int size_to_add);
 void			add_zero(unsigned int size_to_add);
 unsigned int		my_strlen(char *str);
@@ -110,6 +112,7 @@ int			init_flags_width_prec(t_params *params,
 					      unsigned int i);
 int			init_length(t_params *params, const char *str,
 				    unsigned int i);
+int			ft_printf (const char *format, ...);
 void			stock_arg(va_list *arg, t_tmp_arg *tmp, char c);
 unsigned int		is_to_convert(const char *str);
 unsigned int		save_chars(t_tmp_arg *tmp, unsigned int chars_to_save);

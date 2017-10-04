@@ -1,14 +1,16 @@
-/*
-** stock_args.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sun Nov 17 00:35:25 2013 chapui_s
-** Last update Sun Nov 17 11:18:16 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   stock_args.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:30:15 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:30:21 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 #include <stdarg.h>
 #include <stddef.h>
 

@@ -1,14 +1,16 @@
-/*
-** utils.c for my_printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Thu Nov 14 16:34:06 2013 chapui_s
-** Last update Sun Nov 17 12:27:46 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:30:40 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:31:22 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 #include <unistd.h>
 
 void	add_space(unsigned int size_to_add)

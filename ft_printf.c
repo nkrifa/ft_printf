@@ -1,15 +1,18 @@
-/*
-** test.c for printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Mon Nov 11 21:32:07 2013 chapui_s
-** Last update Sun Nov 17 18:18:19 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:25:41 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:31:57 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdarg.h>
 #include <stdlib.h>
-#include "my_printf.h"
+#include "ft_printf.h"
 
 unsigned int	find_good_param(t_params *params, va_list *arg_tmp,
 				const char *str, unsigned int i)

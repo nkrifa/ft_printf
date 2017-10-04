@@ -6,11 +6,11 @@
 /*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 23:26:04 by nkrifa            #+#    #+#             */
-/*   Updated: 2017/10/04 23:42:21 by nkrifa           ###   ########.fr       */
+/*   Updated: 2017/10/04 23:26:06 by nkrifa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "my_printf.h"
 #include <stdarg.h>
 
 void	init_params_to_zero(t_params *params)

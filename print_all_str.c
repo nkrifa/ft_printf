@@ -1,14 +1,16 @@
-/*
-** print_all_str.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 23:02:25 2013 chapui_s
-** Last update Sun Nov 17 12:09:24 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_all_str.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:27:29 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:27:45 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 
 unsigned int	put_n_all_str(char *str, unsigned int n)
 {

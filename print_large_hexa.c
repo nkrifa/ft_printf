@@ -1,14 +1,16 @@
-/*
-** print_little_hexa.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 16:35:20 2013 chapui_s
-** Last update Sun Nov 17 12:18:48 2013 chapui_s
-*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_large_hexa.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nkrifa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/04 23:28:47 by nkrifa            #+#    #+#             */
+/*   Updated: 2017/10/04 23:28:55 by nkrifa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "my_printf.h"
+#include "ft_printf.h"
 
 void	finish_large_hexa(t_tmp_arg *tmp, t_params *params,
 			  unsigned int s_to_add,
