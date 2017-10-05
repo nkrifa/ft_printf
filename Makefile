@@ -1,0 +1,106 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: oukrifa <oukrifa@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/09/07 17:58:00 by oukrifa           #+#    #+#              #
+#    Updated: 2017/10/05 17:06:08 by nkrifa           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = libftprintf.a
+
+CC	= gcc
+LIB	= ar rc
+RAN	= ranlib
+
+
+#===============================================================================
+# 						PATHS
+#===============================================================================
+SRC_PATH		=	./srcs/*.c
+
+INC_PATH		=	./includes/
+
+OBJ_PATH		=	./obj/
+
+#===============================================================================
+# 						SRCS
+#===============================================================================
+SRC			=	srcs/calc_size.c\
+				srcs/check.c\
+				srcs/ft_printf.c\
+				srcs/init_struc.c\
+				srcs/print_all_str.c\
+				srcs/print_binary.c\
+				srcs/print_char.c\
+				srcs/print_int.c\
+				srcs/print_large_hexa.c\
+				srcs/print_little_hexa.c\
+				srcs/print_octal.c\
+				srcs/print_ptr.c\
+				srcs/print_str.c\
+				srcs/print_uint.c\
+				srcs/save_chars_written.c\
+				srcs/stock_args.c\
+				srcs/utils.c\
+
+
+
+OBJ_NAME	=	$(SRC:.c=.o)
+
+
+
+OBJ			=	$(addprefix $(OBJ_PATH), $(OBJ_NAME))
+INC			=	$(addprefix -I, $(INC_PATH))
+
+#===============================================================================
+# 						Rules
+#===============================================================================
+all : $(NAME)
+
+print : 
+	gcc $(SRC) -I $(INC_PATH)  -o yo
+#-fsanitize=address
+
+meuh :
+	gcc $(SRC) -I $(INC_PATH) wchar_brute.c -o meu
+#-fsanitize=address
+
+$(NAME) :
+	@echo "Compiling .os..."
+	mkdir -p $(OBJ_PATH)
+	make -C libft
+	$(CC)  $(SRC) -c -I includes/
+	clear
+	@echo "\033[0;32mDone\033[0m\n"
+
+	@echo "Building libftprintf.a..."
+	$(LIB) $(NAME) $(OBJ)
+	clear
+	@echo "\033[0;32mDone\033[0m\n"
+
+	@echo "Ranlibing libftprintf.a..."
+	$(RAN) $(NAME)
+	clear
+	@echo "\033[0;32mDone\033[0m\n"
+
+	@echo "\033[3;94m!libftprintf.a done!\033[0m"
+
+clean :
+	@echo "Deleting .os... for libftprintf.a"
+	make -C libft clean
+	@rm -rf $(OBJ_PATH)
+	@echo "\033[0;32mDone\033[0m\n"
+
+fclean : clean
+	@echo "Deleting libftprintf.a..."
+	make -C libft fclean	
+	@rm -f $(NAME)
+	@echo "\033[0;32mDone\033[0m\n"
+
+re : fclean $(NAME)
+
+.PHONY: re fclean clean all mr_propre print meuh
